@@ -1,0 +1,102 @@
+{
+  "settings": {
+    "businessName": "Naipack",
+    "whatsappNumber": "",
+    "address": "New Kireita House, 2nd floor, Wing B, Nairobi",
+    "mapQuery": "New Kireita House Nairobi",
+    "openingHours": "",
+    "tiktokUrl": "https://www.tiktok.com/@naipack_ltd",
+    "heroHeadline": "Packaging that carries your brand.",
+    "heroLead": "Branded bags, business cards, brochures, delivery notes and thank-you cards, printed in Nairobi."
+  },
+  "products": [
+    {
+      "slug": "bags",
+      "title": "Branded packaging bags",
+      "order": 10,
+      "tagline": "Your logo on every sale",
+      "description": "Paper bags printed with your logo, so every sale walks out as an advert.",
+      "options": [
+        { "label": "Bag size", "choices": ["Small", "Medium", "Large"] },
+        { "label": "Paper", "choices": ["Kraft", "White", "Coloured"] },
+        { "label": "Handle", "choices": ["Twisted paper", "Flat paper"] },
+        { "label": "Print", "choices": ["One colour", "Full colour"] }
+      ],
+      "worksFor": ["Boutiques and salons", "Online sellers", "Bakeries and restaurants", "Events and giveaways"]
+    },
+    {
+      "slug": "cards",
+      "title": "Business cards",
+      "order": 20,
+      "tagline": "Small, sharp, handed over daily",
+      "description": "Business cards that look as good as the business behind them.",
+      "options": [
+        { "label": "Printed sides", "choices": ["One side", "Both sides"] },
+        { "label": "Finish", "choices": ["Matte lamination", "Gloss lamination", "No lamination"] },
+        { "label": "Corners", "choices": ["Standard", "Rounded"] }
+      ],
+      "worksFor": ["Freelancers and consultants", "Shops and offices", "Salons and studios", "Sales teams"]
+    },
+    {
+      "slug": "brochures",
+      "title": "Brochures",
+      "order": 30,
+      "tagline": "Flat or folded handouts",
+      "description": "Explain your services or show your catalogue in one handout.",
+      "options": [
+        { "label": "Format", "choices": ["Flat", "Bi-fold", "Tri-fold"] },
+        { "label": "Size", "choices": ["A4", "A5", "A6"] },
+        { "label": "Finish", "choices": ["Matte", "Gloss", "No lamination"] }
+      ],
+      "worksFor": ["Schools and clinics", "Property and events", "Menus and price lists", "Product catalogues"]
+    },
+    {
+      "slug": "delivery-notes",
+      "title": "Delivery notes",
+      "order": 40,
+      "tagline": "Branded books with copies",
+      "description": "Look organised on every delivery, and keep a copy for yourself.",
+      "options": [
+        { "label": "Copies", "choices": ["Duplicate", "Triplicate"] },
+        { "label": "Numbering", "choices": ["Numbered", "Not numbered"] },
+        { "label": "Page size", "choices": ["A4", "A5", "A6"] }
+      ],
+      "worksFor": ["Wholesalers and suppliers", "Couriers and riders", "Caterers", "Hardware and supply shops"]
+    },
+    {
+      "slug": "thank-you-cards",
+      "title": "Thank-you cards",
+      "order": 50,
+      "tagline": "A card in every order",
+      "description": "A small card in every order that customers keep.",
+      "options": [
+        { "label": "Size", "choices": ["A6", "Business card size", "A5"] },
+        { "label": "Printed sides", "choices": ["One side", "Both sides"] },
+        { "label": "Fold", "choices": ["Flat", "Folded"] }
+      ],
+      "worksFor": ["Online shops", "Gift and beauty brands", "Bakeries", "Anyone shipping orders"]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How do I get a price?",
+      "answer": "Send us the item, the quantity and your size or paper preference on WhatsApp. The price depends on those three things, so we confirm them and reply with a quote.",
+      "order": 10
+    },
+    {
+      "question": "What should I send with my request?",
+      "answer": "Your logo as a clear image or PDF if you have one, plus your business name and contact details. If you are not sure what you need, describe your business and we will suggest what to print.",
+      "order": 20
+    },
+    {
+      "question": "Can I see the design before it is printed?",
+      "answer": "Yes. We share the artwork with you to approve before printing starts.",
+      "order": 30
+    },
+    {
+      "question": "Where do I collect my order?",
+      "answer": "At our shop in New Kireita House, 2nd floor, Wing B, Nairobi. Ask us about delivery when you send your request.",
+      "order": 40
+    }
+  ]
+}
